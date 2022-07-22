@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "mvs",
+  "version": "${version}",
+
+  "name": "Moogs Vanilla Structures",
+  "description": "this is a mod aimed to implement more vanilla style structures",
+  "authors": [
+    "FinnDog"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/mvs/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.finndog.moogsvanillastructures.StructureTutorialMain"
+    ]
+  },
+  "mixins": [
+    "mvs.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
